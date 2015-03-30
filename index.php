@@ -11,20 +11,10 @@
         <div class="jumbotron">
             <h1>Magento Guest Audit</h1>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <h5>Download</h5>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <p><a href="/mga.phar">mga.phar</a></p>
-                    </div>
-                </div>
-            </div>
+        <div class="page-header">
+            <h3>Download</h3>
         </div>
+        <a class="btn btn-lg btn-primary" href="/mga.phar">mga.phar</a>
     </div>
 </body>
 </html>
