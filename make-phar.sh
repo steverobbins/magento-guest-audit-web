@@ -20,5 +20,5 @@ $BIN_COMPOSER --no-dev install
 $BIN_BOX build -c box.json
 rm -f $PHAR_DEST
 mv $REPO_FOLDER/mga.phar $PHAR_DEST
-php $PHAR_DEST --version >> $VERSION
+php $PHAR_DEST --version > $VERSION
 echo Done
